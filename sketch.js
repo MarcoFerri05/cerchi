@@ -13,7 +13,7 @@ function draw ()
 {
   dati(x,y,d,color1,color2,color3)
   circle(x,y,d)
-    fill(color1, color2, color3)
+  fill(color1, color2, color3, a)
 }
 
 function dati()
@@ -25,4 +25,5 @@ function dati()
     color1 = random(0,255)
     color2 = random(0,255)
     color3 = random(0,255)
+    a = random(0,255)
 }
